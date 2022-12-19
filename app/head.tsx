@@ -4,7 +4,7 @@ export default function Head() {
   return (
     <>
       <title>Digital Agency</title>
-      <meta name="description" content="Digital Agency" />
+      <meta name="description" content="Digital Agency For web App" />
     </>
   )
 }
