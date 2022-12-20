@@ -3,7 +3,7 @@ import Button from './UI/button'
 export default function HowDoesWork() {
   return (
     <section className="flex flex-col items-center gap-24 pt-20 pb-12 md:flex-row">
-      <div className="w-1/2">
+      <div className="md:w-1/2">
         <h2 className="pb-14 text-4xl font-medium text-teks">
           How does our process work?
         </h2>

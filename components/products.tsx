@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductItem from './product-item'
 
 export default function Products() {
   return (
@@ -13,7 +14,16 @@ export default function Products() {
             Ut enim ad minim veniam, quis nostrud exercitation ullamco
           </span>
         </div>
-        <div>icn</div>
+      </div>
+      <div className="grid grid-cols-1 gap-28 px-6 pt-24 md:grid-cols-3 md:px-20">
+        {[1, 2, 3].map(item => (
+          <ProductItem
+            name="PT. ABCDE"
+            title="Web Development"
+            key={item}
+            image={`/images/product-${item}.png`}
+          />
+        ))}
       </div>
     </section>
   )
